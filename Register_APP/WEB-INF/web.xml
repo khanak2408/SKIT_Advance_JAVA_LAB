@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>praveen</servlet-name>
+        <servlet-class>HelloWorldServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>praveen</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,18 @@
+<web-app>
+    <servlet>
+        <servlet-name>praveen</servlet-name>
+        <servlet-class>HelloUserServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>james</servlet-name>
+        <servlet-class>RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>praveen</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>james</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+</web-app>

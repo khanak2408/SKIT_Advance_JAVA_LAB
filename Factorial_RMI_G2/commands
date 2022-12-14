@@ -1,0 +1,4 @@
+javac *.java
+rmic Factorial
+java FactorialServer
+java FactorialClient

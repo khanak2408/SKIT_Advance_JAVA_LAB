@@ -1,0 +1,6 @@
+javac *.java
+start rmiregistry
+rmic Factorial
+java FactorialServer
+
+java FactorialClient

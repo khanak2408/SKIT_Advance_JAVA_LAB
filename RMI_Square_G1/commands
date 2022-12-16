@@ -1,0 +1,6 @@
+javac *.java
+start rmiregistry
+rmic Square
+java SquareServer
+
+java SquareClient
